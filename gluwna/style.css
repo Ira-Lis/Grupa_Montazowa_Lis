@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  margin-inline: auto;
+  min-height: 1205px;
+  background: #312c2c;
+}
+header {
+  margin: 0;
+  background: #a59e9e;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 29px;
+  padding-block: 9px;
+}
+.logonazw {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logohead {
+  width: 100px;
+  /* height: 105px; */
+}
+.posylania {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 2;
+}
+.posylania a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding-inline: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000;
+}
+.posylania a:hover {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding-inline: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+  color: #f80606;
+}
+/* main ////////////////////////////////////////*/
+
+.viania {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.viania img {
+  width: 50%;
+}
+.textpryv {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+h1 {
+  width: 620px;
+  min-height: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #e50b0f;
+}
+.container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  max-width: 480px;
+}
+hr {
+  border: none;
+  background-color: #f80606;
+  height: 5px;
+  margin-block: 47px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 39px;
+  color: #000000;
+}
+.container_2 {
+  min-height: 570px;
+  background: #d8d8d8;
+}
+.certyfikaty {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.certyfikaty img {
+  padding: 0 41px 41px 41px;
+}
+.certyfikat {
+  width: 342px;
+  min-height: 150px;
+}
+/* footer//////////////////////////////////////// */
+footer {
+  min-height: 188px;
+  background-color: #979797;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .logonazw {
+  display: flex;
+  flex-grow: 0;
+}
+.logofooter {
+  width: 140px;
+  min-height: 156px;
+}
+.kontakty {
+  color: #000000;
+  padding-right: 150px;
+  font-size: 40px;
+  line-height: 40px;
+}
+.tel,
+.mail {
+  display: flex;
+  margin: 12px 0;
+}
+footer .kontakty .img {
+  margin-block-end: 12px;
+}
+.tel img,
+.mail img {
+  margin: 0 12px 0 0;
+}
