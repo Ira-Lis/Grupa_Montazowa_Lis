@@ -23,19 +23,19 @@ header {
   flex-grow: 1;
 }
 .logohead {
-  width: 100px;
-  /* height: 105px; */
+  width: 50px;
 }
 .posylania {
   display: flex;
   justify-content: space-evenly;
   flex-grow: 2;
+  flex-wrap: wrap;
 }
 .posylania a {
   display: block;
   box-sizing: border-box;
   text-decoration: none;
-  padding-inline: 40px;
+  padding-inline: 0px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -44,15 +44,6 @@ header {
   color: #000;
 }
 .posylania a:hover {
-  display: block;
-  box-sizing: border-box;
-  text-decoration: none;
-  padding-inline: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 40px;
   color: #f80606;
 }
 /* main ////////////////////////////////////////*/
@@ -60,11 +51,26 @@ header {
   background-image: url(./ikons/Group\ 38.png);
   background-repeat: no-repeat;
   background-position: top right;
-  margin-left: 152px;
-  padding-top: 52px;
-  padding-bottom: 60px;
+  background-size:contain;
+  padding-block: 200px;
+  display: flex;
+  padding-inline-start: 16px;
+ }
+.vitania{
+  width: 100%;
+  flex-grow: 1;
+ display: flex;
+   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  align-content: center;
 }
-
+.pusto{
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
 
 h1 {
   width: 620px;
@@ -97,13 +103,20 @@ hr {
 h2 {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 15px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 39px;
   color: #000000;
+}
+.container_2 h2 {
+  padding:40px ;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 39px;
+
 }
 .container_2 {
   min-height: 570px;
@@ -123,7 +136,7 @@ h2 {
 }
 /* footer//////////////////////////////////////// */
 footer {
-  min-height: 188px;
+  min-height: 150px;
   background-color: #979797;
   display: flex;
   align-items: center;
@@ -135,14 +148,13 @@ footer .logonazw {
   flex-grow: 0;
 }
 .logofooter {
-  width: 140px;
-  min-height: 156px;
+  width: 100px;
 }
 .kontakty {
   color: #000000;
   padding-right: 150px;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 30px;
 }
 .tel,
 .mail {
