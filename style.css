@@ -15,7 +15,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-inline: 2vw;
-  padding-block: 0,5vw;
+  padding-block: 0.5vw;
 }
 .logonazw {
   display: flex;
@@ -24,6 +24,7 @@ header {
 }
 .logohead {
   width: 3vw;
+  /* padding-block: 0.5vw; */
 }
 .posylania {
   display: flex;
@@ -79,7 +80,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 3vw;
-  line-height: 2,5vw;
+  line-height: 2.5vw;
   color: #e50b0f;
 
 }
@@ -88,7 +89,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
-  line-height: 2,5vw;
+  line-height: 2.5vw;
   color: #ffffff;
   /* max-width: 480px; */
 }
