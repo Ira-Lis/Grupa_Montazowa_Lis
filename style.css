@@ -173,3 +173,20 @@ footer p {
   padding-block-end: 1vw;
 
 }
+
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+
+}
+.gallery img{
+padding: 3vw;
+}
+.gallery img:active{
+  border: #f80606;
+  border: 1vw;
+width: 70%;
+}
