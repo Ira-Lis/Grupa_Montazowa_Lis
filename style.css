@@ -14,8 +14,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 29px;
-  padding-block: 9px;
+  padding-inline: 2vw;
+  padding-block: 0,5vw;
 }
 .logonazw {
   display: flex;
@@ -136,7 +136,7 @@ h2 {
 }
 /* footer//////////////////////////////////////// */
 footer {
-  min-height: 10vw;
+  min-height: vw;
   background-color: #979797;
   display: flex;
   align-items: center;
@@ -155,16 +155,20 @@ footer .logonazw {
   /* padding-right: 150px; */
   font-size: 2vw;
   /* line-height: 1vw; */
+  padding-block:1vw ;
 }
-.tel,
-.mail {
+.tel{
   display: flex;
-  margin: 12px 0;
+  /* margin: 12px 0; */
+  line-height: 1vw;
 }
-footer .kontakty .img {
-  margin-block-end: 12px;
+footer .kontakty img {
+  width: 2vw;
 }
-.tel img,
-.mail img {
-  margin: 0 12px 0 0;
+.tel img {
+  margin: 0 1vw 0 0;
+}
+footer p {
+  padding-block-end: 1vw;
+
 }
