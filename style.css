@@ -4,7 +4,7 @@
 body {
   margin: 0;
   margin-inline: auto;
-  min-height: 1205px;
+  min-height: 100%;
   background: #312c2c;
 }
 header {
@@ -176,9 +176,16 @@ footer .kontakty img {
 .tel img {
   margin: 0 1vw 0 0;
 }
-footer p {
+footer a {
   padding-block-end: 1vw;
-
+text-decoration: none;
+ font-family: "Inter";
+  font-style: normal;
+   color: #000000;
+  /* padding-right: 150px; */
+  font-size: 3vw;
+  /* line-height: 1vw; */
+  padding-block:1vw ;
 }
 footer h2{
   line-height: 4vw; 
@@ -199,4 +206,7 @@ padding: 3vw;
   border: #f80606;
   border: 1vw;
 width: 70%;
+}
+.galh2{
+  padding-block: 10vw;
 }

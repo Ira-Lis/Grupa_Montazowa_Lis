@@ -24,9 +24,40 @@
         <a href="./galeria.html">galeria</a>
         <a href="./opinie.html">opinie</a>
       </div>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" id="menuCheckbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li>
+              <a href="./index.html">
+                <label for="menuCheckbox" onclick="this.parentNode.click();"
+                  >Home</label
+                >
+              </a>
+            </li>
+            <li>
+              <a href="./galeria.html">
+                <label for="menuCheckbox" onclick="this.parentNode.click();"
+                  >Galeria</label
+                >
+              </a>
+            </li>
+           <li>
+              <a href="./opinie.html">
+                <label for="menuCheckbox" onclick="this.parentNode.click();"
+                  >Opinie</label
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-    <h1>wkrótce</h1>
+    <h1 class="galh2">wkrótce</h1>
     
     </main>
     <footer>
@@ -38,7 +69,7 @@
         <p>kontakty:</p>
         <div class="tel">
           <img src="./ikons/tel.svg" alt="" />
-          <p>606169549</p>
+          <a href="tel:+48606169549">606169549</a>
         </div>
       </div>
     </footer>
