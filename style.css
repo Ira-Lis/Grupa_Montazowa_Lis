@@ -8,6 +8,8 @@ body {
   background: #312c2c;
 }
 header {
+  position: fixed;
+  width: 100%;
   margin: 0;
   background: #a59e9e;
   margin-inline: auto;
