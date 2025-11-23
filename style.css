@@ -47,6 +47,11 @@ header {
 .posylania a:hover {
   color: #f80606;
 }
+
+#menuToggle{
+  display: none;
+}
+
 /* main ////////////////////////////////////////*/
 .container{
   background-image: url(./ikons/Group\ 38.png);
@@ -81,7 +86,7 @@ h1 {
   font-weight: 700;
   font-size: 3vw;
   line-height: 2.5vw;
-  color: #e50b0f;
+  color: #d02e31;
 
 }
 .container p {
@@ -173,6 +178,9 @@ footer p {
   padding-block-end: 1vw;
 
 }
+footer h2{
+  line-height: 4vw; 
+}
 
 
 
@@ -185,7 +193,7 @@ justify-content: center;
 .gallery img{
 padding: 3vw;
 }
-.gallery img:active{
+.gallery img:focus{
   border: #f80606;
   border: 1vw;
 width: 70%;
