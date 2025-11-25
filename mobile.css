@@ -71,7 +71,7 @@
   .logofooter {
     width: 8vw;
   }
-  footer p {
+  footer p,a {
     font-size: 4vw;
     line-height: 3.5vw;
   }
