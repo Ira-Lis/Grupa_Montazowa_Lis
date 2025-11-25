@@ -7,6 +7,18 @@ body {
   min-height: 100%;
   background: #312c2c;
 }
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
 header {
   position: fixed;
   width: 100%;
@@ -16,8 +28,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 2vw;
-  padding-block: 0.5vw;
+  padding-inline: 3.514vw;
+  padding-block: 0.659vw;
 }
 .logonazw {
   display: flex;
@@ -25,93 +37,111 @@ header {
   flex-grow: 1;
 }
 .logohead {
-  width: 3vw;
-  /* padding-block: 0.5vw; */
+  width: 4.26vw;
+}
+header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.196vw;
+  line-height: 2.709vw;
+  color: #000000;
 }
 .posylania {
   display: flex;
   justify-content: space-evenly;
   flex-grow: 2;
-  flex-wrap: wrap;
 }
 .posylania a {
   display: block;
   box-sizing: border-box;
   text-decoration: none;
-  /* padding-inline: 0px; */
-  font-family: "Inter";
+  font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
-  font-size: 2vw;
-  line-height: 2vw;
-  color: #000;
+  font-weight: 600;
+  font-size: 2.196vw;
+  line-height: 2.709vw;
+  color: #000000;
 }
 .posylania a:hover {
   color: #f80606;
 }
 
-#menuToggle{
+#menuToggle {
   display: none;
 }
 
 /* main ////////////////////////////////////////*/
-.container{
-  background-image: url(./ikons/Group\ 38.png);
+/* main{
+  padding-block-start: 15vw;
+  height: 100%;
+} */
+.container {
+  background-image: url(./golovna/Group\ 38.png);
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size:contain;
-  padding-block: 6vw;
+  /* background-position: left 104.7% top -175%; */
+  background-position-y:  4vw ;
+  background-position-x:  106%;
+  background-size: contain;
+  /* padding-block: 6vw; */
   display: flex;
-  padding-inline-start: 1vw;
- }
-.vitania{
-  width: 100%;
+  padding-inline-start: 3.514vw;
+  padding-block-start: 9.59vw;
+  z-index: 50;
+}
+.vitania {
+  /* width: 40.264vw; */
   flex-grow: 1;
- display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   margin-inline: auto;
   align-content: center;
 }
-.pusto{
+.pusto {
   width: 100%;
   /* height: 100%; */
   flex-grow: 1;
 }
 
 h1 {
-  /* width: 620px; */
-  /* min-height: 80px; */
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3vw;
-  line-height: 2.5vw;
-  color: #d02e31;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 2.489vw;
+line-height: 3.660vw;
+color: #D9D9D9;
+margin-block-end: 4.316vw;
+width: 55.344vw;
 
 }
 .container p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2vw;
-  line-height: 2.5vw;
-  color: #ffffff;
-  /* max-width: 480px; */
+  width: 40.264vw;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 1.464vw;
+/* font-size: 20px; */
+line-height: 2.196vw;
+text-align: justify;
+color: #FFFFFF;
+
+
 }
 
 hr {
   border: none;
-  background-color: #f80606;
+  background-color: #BE4648;
   height: 5px;
   margin-block: 3vw;
+  /* z-index: 9; */
 }
 
 h2 {
   display: flex;
   justify-content: center;
-  padding:1vw;
+  padding: 1vw;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -120,11 +150,10 @@ h2 {
   color: #000000;
 }
 .container_2 h2 {
-  padding:2vw ;
+  padding: 2vw;
   font-weight: 700;
   font-size: 3vw;
   line-height: 3vw;
-
 }
 .container_2 {
   min-height: 25vw;
@@ -139,7 +168,7 @@ h2 {
   padding: 0 2vw 2vw 2vw;
 }
 .certyfikat {
-  width:25vw;
+  width: 25vw;
   /* min-height: 150px; */
 }
 /* footer//////////////////////////////////////// */
@@ -163,9 +192,9 @@ footer .logonazw {
   /* padding-right: 150px; */
   font-size: 2vw;
   /* line-height: 1vw; */
-  padding-block:1vw ;
+  padding-block: 1vw;
 }
-.tel{
+.tel {
   display: flex;
   /* margin: 12px 0; */
   line-height: 1vw;
@@ -178,35 +207,32 @@ footer .kontakty img {
 }
 footer a {
   padding-block-end: 1vw;
-text-decoration: none;
- font-family: "Inter";
+  text-decoration: none;
+  font-family: "Inter";
   font-style: normal;
-   color: #000000;
+  color: #000000;
   /* padding-right: 150px; */
   font-size: 3vw;
   /* line-height: 1vw; */
-  padding-block:1vw ;
+  padding-block: 1vw;
 }
-footer h2{
-  line-height: 4vw; 
+footer h2 {
+  line-height: 4vw;
 }
 
-
-
-.gallery{
+.gallery {
   display: flex;
   flex-wrap: wrap;
-justify-content: center;
-
+  justify-content: center;
 }
-.gallery img{
-padding: 3vw;
+.gallery img {
+  padding: 3vw;
 }
-.gallery img:focus{
+.gallery img:focus {
   border: #f80606;
   border: 1vw;
-width: 70%;
+  width: 70%;
 }
-.galh2{
+.galh2 {
   padding-block: 10vw;
 }
