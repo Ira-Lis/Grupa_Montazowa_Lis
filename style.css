@@ -28,14 +28,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
+
   padding-inline: 3.514vw;
   padding-block: 0.659vw;
-=======
+
   padding-inline: 2vw;
   padding-block: 0.5vw;
   /* margin-bottom: 2vw; */
->>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c
+/* >>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c */
 }
 .logonazw {
   display: flex;
@@ -78,24 +78,18 @@ header h2 {
 }
 
 /* main ////////////////////////////////////////*/
-<<<<<<< HEAD
-/* main{
-  padding-block-start: 15vw;
-  height: 100%;
-} */
-.container {
-  background-image: url(./golovna/Group\ 38.png);
-=======
+
+
+
 main{
-  padding-top: 5vw;
-  /* min-height: 200vh; */
+  /* padding-block-start: 15vw; */
+
   height: 100%;
 }
 .container{
-  /* margin-top:15vw ;
-  padding-top: 50vh; */
-  background-image: url(./ikons/Group\ 38.png);
->>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c
+  /* margin-top:15vw ; */
+  padding-top: 50vh;
+background-image: url(./golovna/Group\ 38.png);
   background-repeat: no-repeat;
   /* background-position: left 104.7% top -175%; */
   background-position-y:  4vw ;
@@ -105,7 +99,7 @@ main{
   display: flex;
   padding-inline-start: 3.514vw;
   padding-block-start: 9.59vw;
-  z-index: 50;
+  /* z-index: 50; */
 }
 .vitania {
   /* width: 40.264vw; */
@@ -228,28 +222,27 @@ footer a {
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
-<<<<<<< HEAD
+
   color: #000000;
   /* padding-right: 150px; */
   font-size: 3vw;
   /* line-height: 1vw; */
   padding-block: 1vw;
-=======
+
    color: #000000;
   font-size: 3vw;
   padding-block:1vw ;
->>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c
-}
+
 footer h2 {
   line-height: 4vw;
 }
 
-<<<<<<< HEAD
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-=======
+
 
 
 /* .gallery{
@@ -268,7 +261,7 @@ justify-content: center;
 }
 .galh2 {
   padding-block: 10vw;
-<<<<<<< HEAD
+
 }
 =======
 } */
@@ -359,4 +352,3 @@ height: 100%;
 @media(max-width: 400px) {
   .photo { width: 100%; }
 } */
->>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c
