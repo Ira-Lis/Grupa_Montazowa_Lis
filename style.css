@@ -13,7 +13,7 @@ body {
   /* font-weight: <weight>; */
   font-style: normal;
 }
-.montserrat{
+.montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
@@ -35,7 +35,7 @@ header {
   padding-inline: 2vw;
   padding-block: 0.5vw;
   /* margin-bottom: 2vw; */
-/* >>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c */
+  /* >>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c */
 }
 .logonazw {
   display: flex;
@@ -79,21 +79,19 @@ header h2 {
 
 /* main ////////////////////////////////////////*/
 
-
-
-main{
+main {
   /* padding-block-start: 15vw; */
 
   height: 100%;
 }
-.container{
+.container {
   /* margin-top:15vw ; */
   padding-top: 50vh;
-background-image: url(./golovna/Group\ 38.png);
+  background-image: url(./golovna/Group\ 38.png);
   background-repeat: no-repeat;
   /* background-position: left 104.7% top -175%; */
-  background-position-y:  4vw ;
-  background-position-x:  106%;
+  background-position-y: 4vw;
+  background-position-x: 106%;
   background-size: contain;
   /* padding-block: 6vw; */
   display: flex;
@@ -118,33 +116,30 @@ background-image: url(./golovna/Group\ 38.png);
 }
 
 h1 {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 2.489vw;
-line-height: 3.660vw;
-color: #D9D9D9;
-margin-block-end: 4.316vw;
-width: 55.344vw;
-
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.489vw;
+  line-height: 3.66vw;
+  color: #d9d9d9;
+  margin-block-end: 4.316vw;
+  width: 55.344vw;
 }
 .container p {
   width: 40.264vw;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 1.464vw;
-/* font-size: 20px; */
-line-height: 2.196vw;
-text-align: justify;
-color: #FFFFFF;
-
-
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.464vw;
+  /* font-size: 20px; */
+  line-height: 2.196vw;
+  text-align: justify;
+  color: #ffffff;
 }
 
 hr {
   border: none;
-  background-color: #BE4648;
+  background-color: #be4648;
   height: 5px;
   margin-block: 3vw;
   /* z-index: 9; */
@@ -197,91 +192,60 @@ footer .logonazw {
   flex-grow: 0;
 }
 .logofooter {
-  width: 5vw;
+  width: 6.07vw;
 }
 .kontakty {
-  color: #000000;
-  /* padding-right: 150px; */
-  font-size: 2vw;
-  /* line-height: 1vw; */
   padding-block: 1vw;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.46412vw;
+line-height: 1.75695vw;
+color: #000000;
 }
-.tel {
+.tel, .mail {
   display: flex;
-  /* margin: 12px 0; */
   line-height: 1vw;
 }
 footer .kontakty img {
   width: 2vw;
 }
-.tel img {
+.tel img, .mail img {
   margin: 0 1vw 0 0;
 }
-footer a {
+footer a, footer p {
   padding-block-end: 1vw;
   text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-
-  color: #000000;
-  /* padding-right: 150px; */
-  font-size: 3vw;
-  /* line-height: 1vw; */
   padding-block: 1vw;
-
-   color: #000000;
-  font-size: 3vw;
-  padding-block:1vw ;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.46412vw;
+  line-height: 1.75695vw;
+  color: #000000;
+}
 
 footer h2 {
   line-height: 4vw;
 }
 
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-
-
-/* .gallery{
-  display: flex;
-  flex-wrap: wrap;
-justify-content: center;
->>>>>>> 3efca6bb5e61bd5a72371394b09bfc44d4f3685c
-}
-.gallery img {
-  padding: 3vw;
-}
-.gallery img:focus {
-  border: #f80606;
-  border: 1vw;
-  width: 70%;
-}
-.galh2 {
-  padding-block: 10vw;
-
-}
-=======
-} */
 /*---------------------------------------  */
 .gallery {
-  max-width:90% ;
+  max-width: 90%;
   margin: auto;
   padding: 20px;
   font-family: Arial, sans-serif;
-/* padding-top: 15vh; */
-display: flex;
-justify-content: space-around;
-/* justify-content: center; */
-flex-wrap: wrap;
+  /* padding-top: 15vh; */
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  flex-wrap: wrap;
 }
-.category{
+.category {
   width: 26%;
-/* height: 100%; */
+  /* height: 100%; */
 }
-#cat3{
+#cat3 {
   background-image: url(./img_gal/falczewo.png);
   width: 100%;
   height: 100%;
@@ -300,10 +264,9 @@ flex-wrap: wrap;
   /* border-left: 6px solid red; */
   margin-bottom: 10px;
   /* width: 50%; */
-flex-direction: column;
-align-items: center;
-height: 100%;
-
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 
 /* Кучка закрита */
@@ -313,7 +276,7 @@ height: 100%;
   gap: 8px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height .5s ease;
+  transition: max-height 0.5s ease;
 }
 
 /* Коли клікнув на категорію */
@@ -332,23 +295,14 @@ height: 100%;
 .photo img {
   width: 100%;
   border-radius: 6px;
-  transition: transform .3s ease, box-shadow .3s;
+  transition: transform 0.3s ease, box-shadow 0.3s;
 }
 
 /* Масштабування фото при кліку */
 .photo input:checked + img {
   transform: scale(2.2);
   cursor: zoom-out;
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
   z-index: 10;
   position: relative;
 }
-
-/* Адаптивність */
-/* @media(max-width: 600px) {
-  .photo { width: 48%; }
-}
-
-@media(max-width: 400px) {
-  .photo { width: 100%; }
-} */

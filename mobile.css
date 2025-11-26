@@ -24,7 +24,7 @@
     font-size: 3vw;
   }
   footer p {
-    font-size: 3vw;
+    /* font-size: 3vw; */
   }
 }
 
@@ -47,19 +47,25 @@
     flex-direction: column;
   }
   .pusto {
-    height: 65vw;
+    height: 75vw;
   }
   .container {
-    padding-block-start: 1vw;
+    background-position-y: 10vw;
+    background-position-x: 6vw;
+    padding-block-start: 3vw;
     flex-direction: column-reverse;
+    padding-inline-end: 3vw;
   }
   h1 {
     font-size: 8vw;
     line-height: 7vw;
+    width: 85%;
+    /* align-items: center; */
   }
   .container p {
     font-size: 6vw;
     line-height: 5vw;
+    width: 85%;
   }
   .container_2 h2 {
     padding: 5vw;
@@ -71,9 +77,10 @@
   .logofooter {
     width: 8vw;
   }
-  footer p,a {
-    font-size: 4vw;
-    line-height: 3.5vw;
+  footer p,
+  a {
+    /* font-size: 4vw;
+    line-height: 3.5vw; */
   }
   .certyfikaty {
     justify-content: center;
@@ -163,7 +170,7 @@
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
-        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   #menu li {
     padding: 10px 0;
